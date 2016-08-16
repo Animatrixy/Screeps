@@ -20,7 +20,6 @@ var mod = {
                     filter: {'color': COLOR_RED, 'secondaryColor': COLOR_GREEN }
                 },  
             },
-            //COLOR_PURPLE,
             //COLOR_BLUE,
             //COLOR_CYAN,
             idle: { // creeps go here to have a nice time (getting out of the way)
@@ -48,6 +47,16 @@ var mod = {
                 color: COLOR_RED,
                 secondaryColor: COLOR_BLUE,
                 filter: {'color': COLOR_RED, 'secondaryColor': COLOR_BLUE }
+            },
+            elite: { //Elite at lvl 8 only
+                color: COLOR_PURPLE,
+                secondaryColor: COLOR_PURPLE,
+                filter: {'color': COLOR_PURPLE, 'secondayColor': COLOR_PURPLE }
+            },
+            invade3: {// elites attack
+                color: COLOR_PURPLE,
+                secondaryColor: COLOR_RED,
+                filter: {'color': COLOR_PURPLE, 'secondaryColor': COLOR_RED }
             },
             //COLOR_BROWN,
             // COLOR_GREY,

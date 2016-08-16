@@ -3,6 +3,7 @@ var mod = {
         Spawn.prototype.priority = [
             Creep.setup.worker,
             Creep.setup.soldier,
+            Creep.setup.elite,
             Creep.setup.melee,
             Creep.setup.ranger,
             Creep.setup.healer,
